@@ -7,8 +7,8 @@ Created on Thu Jul 31 21:30:52 2025
 
 def find_duplicates(arr):
     
-    seen = set()
-    duplicates = set()
+    seen = set() #initialing empty set
+    duplicates = set() #initslizzing the empty set
     
     for num in arr:
         if num in seen:
